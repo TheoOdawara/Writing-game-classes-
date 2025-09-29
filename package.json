@@ -1,0 +1,19 @@
+{
+  "name": "writing-game-classes-",
+  "version": "1.0.0",
+  "description": "Challenge from DIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoOdawara/Writing-game-classes-.git"
+  },
+  "author": "Theo Odawara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheoOdawara/Writing-game-classes-/issues"
+  },
+  "homepage": "https://github.com/TheoOdawara/Writing-game-classes-#readme"
+}
