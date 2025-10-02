@@ -12,6 +12,7 @@
   },
   "author": "Theo Odawara",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/TheoOdawara/Writing-game-classes-/issues"
   },
