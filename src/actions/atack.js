@@ -1,13 +1,11 @@
-import {option} from './index.js';
-
-
 async function atack(hero, damage) {
     hero.health -= damage;
     console.log(`${hero.name} recieve ${damage} damage! Remaining health: ${hero.health}`);
     if (hero.health <= 0){
         console.log(`${hero.name} is dead.`);
-        return option == "0";
+        return 0;
     };
+    return 1;
 }
 
 

@@ -27,11 +27,13 @@ const heroes = [];
             await atackType(heroes[0], heroes[1]);
         } else if (option == "2"){
             const damage = await questionAsync("damage: ");
-            await atack(heroes[1], damage);
+            const controler = await atack(heroes[1], damage);
+            if (controler === 0){
+                option = "0";
+            }
             await atackType(heroes[0], heroes[1]);
         };
     }
     rl.close();
 })();
 
-export {option};
